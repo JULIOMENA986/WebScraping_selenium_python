@@ -2,14 +2,8 @@
     "settings": [
         {
             "TYPE": "URL",
-            "XPATH": "https://www.w3schools.com/html/html_tables.asp"
+            "XPATH": "https://datatables.net"
         },
-        {
-            "TYPE": "TABLE",
-            "XPATH": "/html/body/div[6]/div[1]/div[1]/div[3]/div/div/table[1]",
-            "FILE": "html_tables"
-        },
-      
         {
             "TYPE": "SELECT",
             "XPATH": "/html/body/div[2]/div[2]/div/div[2]/div/div/div[1]/div[1]/div/select",
@@ -20,6 +14,8 @@
             "XPATH": "/html/body/div[2]/div[2]/div/div[2]/div/div/div[2]/div/table",
             "FILE": "ciudadPaises"
         },
+
+
         {
             "TYPE": "URL",
             "XPATH": "https://www.banxico.org.mx/SieInternet/consultarDirectorioInternetAction.do?sector=6&accion=consultarCuadroAnalitico&idCuadro=CA113&locale=es"
@@ -28,6 +24,19 @@
             "TYPE": "TABLE",
             "XPATH": "/html/body/main/div/div[3]/table[2]",
             "FILE": "monedas"
+        },
+
+
+        
+        
+        {
+            "TYPE": "URL",
+            "XPATH": "https://www.worldometers.info/world-population/population-by-country/"
+        },
+        {
+            "TYPE": "TABLE",
+            "XPATH": "//*[@id='example2']",
+            "FILE": "world_population"
         }
     ]
 }
