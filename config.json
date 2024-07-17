@@ -2,41 +2,12 @@
     "settings": [
         {
             "TYPE": "URL",
-            "XPATH": "https://datatables.net"
-        },
-        {
-            "TYPE": "SELECT",
-            "XPATH": "/html/body/div[2]/div[2]/div/div[2]/div/div/div[1]/div[1]/div/select",
-            "VALUE": "25"
+            "XPATH": "https://www.formula1.com/en/results.html/2023/races.html"
         },
         {
             "TYPE": "TABLE",
-            "XPATH": "/html/body/div[2]/div[2]/div/div[2]/div/div/div[2]/div/table",
-            "FILE": "ciudadPaises"
-        },
-
-
-        {
-            "TYPE": "URL",
-            "XPATH": "https://www.banxico.org.mx/SieInternet/consultarDirectorioInternetAction.do?sector=6&accion=consultarCuadroAnalitico&idCuadro=CA113&locale=es"
-        },
-        {
-            "TYPE": "TABLE",
-            "XPATH": "/html/body/main/div/div[3]/table[2]",
-            "FILE": "monedas"
-        },
-
-
-        
-        
-        {
-            "TYPE": "URL",
-            "XPATH": "https://www.worldometers.info/world-population/population-by-country/"
-        },
-        {
-            "TYPE": "TABLE",
-            "XPATH": "//*[@id='example2']",
-            "FILE": "world_population"
+            "XPATH": "//table[@class='resultsarchive-table']",
+            "FILE": "formula1_results"
         }
     ]
 }

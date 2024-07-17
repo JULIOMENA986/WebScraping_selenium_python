@@ -1,0 +1,21 @@
+{
+    "settings": [
+       
+
+
+        {
+            "TYPE": "URL",
+            "XPATH": "https://www.banxico.org.mx/SieInternet/consultarDirectorioInternetAction.do?sector=6&accion=consultarCuadroAnalitico&idCuadro=CA113&locale=es"
+        },
+        {
+            "TYPE": "TABLE",
+            "XPATH": "/html/body/main/div/div[3]/table[2]",
+            "FILE": "monedas"
+        }
+
+
+        
+        
+       
+    ]
+}

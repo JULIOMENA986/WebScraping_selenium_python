@@ -1,5 +1,5 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.by import By  # Importa By aquí
 import os
 import json
 from pandas_client import PandasClient

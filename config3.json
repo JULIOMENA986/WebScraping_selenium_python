@@ -1,0 +1,14 @@
+{
+    "settings": [
+       
+        {
+            "TYPE": "URL",
+            "XPATH": "https://www.worldometers.info/world-population/population-by-country/"
+        },
+        {
+            "TYPE": "TABLE",
+            "XPATH": "//*[@id='example2']",
+            "FILE": "world_population"
+        }
+    ]
+}
