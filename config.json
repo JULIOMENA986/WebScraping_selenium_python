@@ -8,6 +8,47 @@
             "TYPE": "TABLE",
             "XPATH": "//table[@class='resultsarchive-table']",
             "FILE": "formula1_results"
+        },
+        {
+            "TYPE": "CLICK",
+            "XPATHS": [
+                "//button[@class='example-button']",
+                "//a[@class='example-link']",
+                "//button[@class='submit-button']"
+            ],
+            "SUBTYPES": [
+                "button",
+                "link",
+                "submit_button"
+            ]
+        },
+        {
+            "TYPE": "SELECT",
+            "XPATH": "//select[@class='dropdown']",
+            "VALUE": "exampleValue"
+        },
+        {
+            "TYPE": "INPUT",
+            "XPATH": "//input[@name='username']",
+            "VALUE": "exampleUser"
+        },
+        {
+            "TYPE": "LIST_OR_DIV",
+            "XPATHS": [
+                "//ol[@class='ordered-list']",
+                "//ul[@class='unordered-list']",
+                "//div[@class='content-div']"
+            ],
+            "FILES": [
+                "ordered_list",
+                "unordered_list",
+                "content_div"
+            ],
+            "SUBTYPES": [
+                "ol",
+                "ul",
+                "div"
+            ]
         }
     ]
 }

@@ -1,14 +1,31 @@
 {
     "settings": [
-       
         {
             "TYPE": "URL",
-            "XPATH": "https://www.worldometers.info/world-population/population-by-country/"
+            "VALUE": "https://www.worldometers.info/world-population/population-by-country/"
         },
         {
             "TYPE": "TABLE",
-            "XPATH": "//*[@id='example2']",
+            "LOCATOR_TYPE": "XPATH",
+            "VALUE": "//*[@id='example2']",
             "FILE": "world_population"
+        },
+        {
+            "TYPE": "CLICK",
+            "LOCATOR_TYPE": "ID",
+            "VALUE": "submit-button"
+        },
+        {
+            "TYPE": "SELECT",
+            "LOCATOR_TYPE": "CSS_SELECTOR",
+            "VALUE": ".dropdown-menu > option",
+            "ACTION": "option_value"
+        },
+        {
+            "TYPE": "INPUT",
+            "LOCATOR_TYPE": "NAME",
+            "VALUE": "username",
+            "ACTION": "exampleUser"
         }
     ]
 }
